@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DownHillSimplex.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Optimisation.Fakes.ShimDownHillSimplex">
+            <summary>Shim type of Optimisation.DownHillSimplex</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimDownHillSimplex.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimDownHillSimplex.#ctor(Optimisation.DownHillSimplex)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimDownHillSimplex.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimDownHillSimplex.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimDownHillSimplex.Bind(Optimisation.IDownHillSimplex)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AlphaReflectionGet">
+            <summary>Sets the shim of DownHillSimplex.get_AlphaReflection()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AlphaReflectionSetDouble">
+            <summary>Sets the shim of DownHillSimplex.set_AlphaReflection(Double value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AssignExpandedVertexToCurrentSimplexInt32ISimplexInt32IVertex">
+            <summary>Sets the shim of DownHillSimplex.AssignExpandedVertexToCurrentSimplex(Int32 numParams, ISimplex reflectedSimplex, Int32 firstWorstValueAsKey, IVertex expandedVertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AssignReflectedVertexToCurrentSimplexInt32ISimplexInt32IVertex">
+            <summary>Sets the shim of DownHillSimplex.AssignReflectedVertexToCurrentSimplex(Int32 numParams, ISimplex reflectedSimplex, Int32 firstWorstValueAsKey, IVertex reflectedVertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.ConstructorIVertexISimplex">
+            <summary>Sets the shim of DownHillSimplex.DownHillSimplex(IVertex vertex, ISimplex initialSimplex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.CurrentSimplexGet">
+            <summary>Sets the shim of DownHillSimplex.get_CurrentSimplex()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.CurrentSimplexSetISimplex">
+            <summary>Sets the shim of DownHillSimplex.set_CurrentSimplex(ISimplex value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.DoesReflectedSimplexPassFuncOfIVertexDoubleFuncOfStandardKernelInt32IVertexFuncOfStandardKernelInt32IVertexIVertexIVertex">
+            <summary>Sets the shim of DownHillSimplex.DoesReflectedSimplexPass(Func`2&lt;IVertex,Double&gt; objectiveMeasure, Func`3&lt;StandardKernel,Int32,IVertex&gt; getAverageOfAllButWorstVertices, Func`5&lt;StandardKernel,Int32,IVertex,IVertex,IVertex&gt; getReflectedVertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.GammaReflectionExpansionGet">
+            <summary>Sets the shim of DownHillSimplex.get_GammaReflectionExpansion()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.GammaReflectionExpansionSetDouble">
+            <summary>Sets the shim of DownHillSimplex.set_GammaReflectionExpansion(Double value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.GetAverageOfAllButWorstVerticesStandardKernelInt32">
+            <summary>Sets the shim of DownHillSimplex.GetAverageOfAllButWorstVertices(StandardKernel kernel, Int32 firstWorstValueAsKey)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.GetExpandedVertexStandardKernelIVertexIVertex">
+            <summary>Sets the shim of DownHillSimplex.GetExpandedVertex(StandardKernel kernel, IVertex avgVertex, IVertex worstVertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.GetReflectedVertexStandardKernelInt32IVertexIVertex">
+            <summary>Sets the shim of DownHillSimplex.GetReflectedVertex(StandardKernel kernel, Int32 firstWorstValueAsKey, IVertex avgVertex, IVertex worstVertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.InitialGuessGet">
+            <summary>Sets the shim of DownHillSimplex.get_InitialGuess()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.InitialGuessSetDoubleArray">
+            <summary>Sets the shim of DownHillSimplex.set_InitialGuess(Double[] value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.InitialSimplexGet">
+            <summary>Sets the shim of DownHillSimplex.get_InitialSimplex()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.InitialSimplexSetISimplex">
+            <summary>Sets the shim of DownHillSimplex.set_InitialSimplex(ISimplex value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.InitialVertexGet">
+            <summary>Sets the shim of DownHillSimplex.get_InitialVertex()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.InitialVertexSetIVertex">
+            <summary>Sets the shim of DownHillSimplex.set_InitialVertex(IVertex value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.IsValid">
+            <summary>Sets the shim of DownHillSimplex.IsValid()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.ObjectiveFunctionGet">
+            <summary>Sets the shim of DownHillSimplex.get_ObjectiveFunction()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.ObjectiveFunctionSetFuncOfIVertexDouble">
+            <summary>Sets the shim of DownHillSimplex.set_ObjectiveFunction(Func`2&lt;IVertex,Double&gt; value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex._DoesReflectedSimplexPassb__0KeyValuePairOfInt32Double">
+            <summary>Sets the shim of DownHillSimplex.&lt;DoesReflectedSimplexPass&gt;b__0(KeyValuePair`2&lt;Int32,Double&gt; e)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex._DoesReflectedSimplexPassb__1KeyValuePairOfInt32Double">
+            <summary>Sets the shim of DownHillSimplex.&lt;DoesReflectedSimplexPass&gt;b__1(KeyValuePair`2&lt;Int32,Double&gt; e)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex._DoesReflectedSimplexPassb__2KeyValuePairOfInt32Double">
+            <summary>Sets the shim of DownHillSimplex.&lt;DoesReflectedSimplexPass&gt;b__2(KeyValuePair`2&lt;Int32,Double&gt; e)</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.ShimDownHillSimplex.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.AlphaReflectionGet">
+            <summary>Sets the shim of DownHillSimplex.get_AlphaReflection()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.AlphaReflectionSetDouble">
+            <summary>Sets the shim of DownHillSimplex.set_AlphaReflection(Double value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.AssignExpandedVertexToCurrentSimplexInt32ISimplexInt32IVertex">
+            <summary>Sets the shim of DownHillSimplex.AssignExpandedVertexToCurrentSimplex(Int32 numParams, ISimplex reflectedSimplex, Int32 firstWorstValueAsKey, IVertex expandedVertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.AssignReflectedVertexToCurrentSimplexInt32ISimplexInt32IVertex">
+            <summary>Sets the shim of DownHillSimplex.AssignReflectedVertexToCurrentSimplex(Int32 numParams, ISimplex reflectedSimplex, Int32 firstWorstValueAsKey, IVertex reflectedVertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.CurrentSimplexGet">
+            <summary>Sets the shim of DownHillSimplex.get_CurrentSimplex()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.CurrentSimplexSetISimplex">
+            <summary>Sets the shim of DownHillSimplex.set_CurrentSimplex(ISimplex value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.DoesReflectedSimplexPassFuncOfIVertexDoubleFuncOfStandardKernelInt32IVertexFuncOfStandardKernelInt32IVertexIVertexIVertex">
+            <summary>Sets the shim of DownHillSimplex.DoesReflectedSimplexPass(Func`2&lt;IVertex,Double&gt; objectiveMeasure, Func`3&lt;StandardKernel,Int32,IVertex&gt; getAverageOfAllButWorstVertices, Func`5&lt;StandardKernel,Int32,IVertex,IVertex,IVertex&gt; getReflectedVertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.GammaReflectionExpansionGet">
+            <summary>Sets the shim of DownHillSimplex.get_GammaReflectionExpansion()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.GammaReflectionExpansionSetDouble">
+            <summary>Sets the shim of DownHillSimplex.set_GammaReflectionExpansion(Double value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.GetAverageOfAllButWorstVerticesStandardKernelInt32">
+            <summary>Sets the shim of DownHillSimplex.GetAverageOfAllButWorstVertices(StandardKernel kernel, Int32 firstWorstValueAsKey)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.GetExpandedVertexStandardKernelIVertexIVertex">
+            <summary>Sets the shim of DownHillSimplex.GetExpandedVertex(StandardKernel kernel, IVertex avgVertex, IVertex worstVertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.GetReflectedVertexStandardKernelInt32IVertexIVertex">
+            <summary>Sets the shim of DownHillSimplex.GetReflectedVertex(StandardKernel kernel, Int32 firstWorstValueAsKey, IVertex avgVertex, IVertex worstVertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.InitialGuessGet">
+            <summary>Sets the shim of DownHillSimplex.get_InitialGuess()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.InitialGuessSetDoubleArray">
+            <summary>Sets the shim of DownHillSimplex.set_InitialGuess(Double[] value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.InitialSimplexGet">
+            <summary>Sets the shim of DownHillSimplex.get_InitialSimplex()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.InitialSimplexSetISimplex">
+            <summary>Sets the shim of DownHillSimplex.set_InitialSimplex(ISimplex value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.InitialVertexGet">
+            <summary>Sets the shim of DownHillSimplex.get_InitialVertex()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.InitialVertexSetIVertex">
+            <summary>Sets the shim of DownHillSimplex.set_InitialVertex(IVertex value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.IsValid">
+            <summary>Sets the shim of DownHillSimplex.IsValid()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.ObjectiveFunctionGet">
+            <summary>Sets the shim of DownHillSimplex.get_ObjectiveFunction()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplex.AllInstances.ObjectiveFunctionSetFuncOfIVertexDouble">
+            <summary>Sets the shim of DownHillSimplex.set_ObjectiveFunction(Func`2&lt;IVertex,Double&gt; value)</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.ShimDownHillSimplexExtensions">
+            <summary>Shim type of Optimisation.DownHillSimplexExtensions</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimDownHillSimplexExtensions.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimDownHillSimplexExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimDownHillSimplexExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplexExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplexExtensions.GetAsCopyDoubleArray">
+            <summary>Sets the shim of DownHillSimplexExtensions.GetAsCopy(Double[] values)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplexExtensions.GetAsCopyISimplex">
+            <summary>Sets the shim of DownHillSimplexExtensions.GetAsCopy(ISimplex thisSimplex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimDownHillSimplexExtensions.GetObjectiveMeasuresISimplex">
+            <summary>Sets the shim of DownHillSimplexExtensions.GetObjectiveMeasures(ISimplex thisSimplex)</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.ShimNinJectBindings">
+            <summary>Shim type of Optimisation.NinJectBindings</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimNinJectBindings.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimNinJectBindings.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimNinJectBindings.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimNinJectBindings.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimNinJectBindings.GetBoundKernel">
+            <summary>Sets the shim of NinJectBindings.GetBoundKernel()</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.ShimObjectiveMeasure">
+            <summary>Shim type of Optimisation.ObjectiveMeasure</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimObjectiveMeasure.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimObjectiveMeasure.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimObjectiveMeasure.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimObjectiveMeasure.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimObjectiveMeasure.GetIVertex">
+            <summary>Sets the shim of ObjectiveMeasure.Get(IVertex vertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimObjectiveMeasure._Getb__0Double">
+            <summary>Sets the shim of ObjectiveMeasure.&lt;Get&gt;b__0(Double val)</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.ShimSimplex">
+            <summary>Shim type of Optimisation.Simplex</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimSimplex.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimSimplex.#ctor(Optimisation.Simplex)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimSimplex.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimSimplex.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimSimplex.Bind(Optimisation.ISimplex)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimSimplex.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimSimplex.ConstructorIVertex">
+            <summary>Sets the shim of Simplex.Simplex(IVertex initialVertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimSimplex.CreateIVertex">
+            <summary>Sets the shim of Simplex.Create(IVertex vertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimSimplex.VerticesGet">
+            <summary>Sets the shim of Simplex.get_Vertices()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimSimplex.VerticesSetDictionaryOfInt32IVertex">
+            <summary>Sets the shim of Simplex.set_Vertices(Dictionary`2&lt;Int32,IVertex&gt; value)</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.ShimSimplex.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimSimplex.AllInstances.CreateIVertex">
+            <summary>Sets the shim of Simplex.Create(IVertex vertex)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimSimplex.AllInstances.VerticesGet">
+            <summary>Sets the shim of Simplex.get_Vertices()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimSimplex.AllInstances.VerticesSetDictionaryOfInt32IVertex">
+            <summary>Sets the shim of Simplex.set_Vertices(Dictionary`2&lt;Int32,IVertex&gt; value)</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.ShimVertex">
+            <summary>Shim type of Optimisation.Vertex</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimVertex.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimVertex.#ctor(Optimisation.Vertex)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimVertex.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimVertex.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.ShimVertex.Bind(Optimisation.IVertex)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimVertex.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimVertex.ConstructorDoubleArray">
+            <summary>Sets the shim of Vertex.Vertex(Double[] parameters)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimVertex.ParametersGet">
+            <summary>Sets the shim of Vertex.get_Parameters()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimVertex.ParametersSetDoubleArray">
+            <summary>Sets the shim of Vertex.set_Parameters(Double[] value)</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.ShimVertex.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimVertex.AllInstances.ParametersGet">
+            <summary>Sets the shim of Vertex.get_Parameters()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.ShimVertex.AllInstances.ParametersSetDoubleArray">
+            <summary>Sets the shim of Vertex.set_Parameters(Double[] value)</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.StubDownHillSimplex">
+            <summary>Stub type of Optimisation.DownHillSimplex</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubDownHillSimplex.#ctor(Optimisation.IVertex,Optimisation.ISimplex)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubDownHillSimplex.InitializeStub">
+            <summary>Initializes a new instance of type StubDownHillSimplex</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubDownHillSimplex.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubDownHillSimplex.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubDownHillSimplex.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.StubIDownHillSimplex">
+            <summary>Stub type of Optimisation.IDownHillSimplex</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.#ctor">
+            <summary>Initializes a new instance of type StubIDownHillSimplex</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.AssignExpandedVertexToCurrentSimplexInt32ISimplexInt32IVertex">
+            <summary>Sets the stub of IDownHillSimplex.AssignExpandedVertexToCurrentSimplex(Int32 numParams, ISimplex reflectedSimplex, Int32 firstWorstValueAsKey, IVertex expandedVertex)</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.AssignReflectedVertexToCurrentSimplexInt32ISimplexInt32IVertex">
+            <summary>Sets the stub of IDownHillSimplex.AssignReflectedVertexToCurrentSimplex(Int32 numParams, ISimplex reflectedSimplex, Int32 firstWorstValueAsKey, IVertex reflectedVertex)</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.AttachBackingFieldToCurrentSimplex">
+            <summary>Attaches delegates to emulate StubIDownHillSimplex.CurrentSimplex as a property with a backing field.</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.AttachBackingFieldToInitialGuess">
+            <summary>Attaches delegates to emulate StubIDownHillSimplex.InitialGuess as a property with a backing field.</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.AttachBackingFieldToInitialSimplex">
+            <summary>Attaches delegates to emulate StubIDownHillSimplex.InitialSimplex as a property with a backing field.</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.AttachBackingFieldToObjectiveFunction">
+            <summary>Attaches delegates to emulate StubIDownHillSimplex.ObjectiveFunction as a property with a backing field.</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.CurrentSimplexGet">
+            <summary>Sets the stub of IDownHillSimplex.get_CurrentSimplex()</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.CurrentSimplexSetISimplex">
+            <summary>Sets the stub of IDownHillSimplex.set_CurrentSimplex(ISimplex value)</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.DoesReflectedSimplexPassFuncOfIVertexDoubleFuncOfStandardKernelInt32IVertexFuncOfStandardKernelInt32IVertexIVertexIVertex">
+            <summary>Sets the stub of IDownHillSimplex.DoesReflectedSimplexPass(Func`2&lt;IVertex,Double&gt; objectiveMeasure, Func`3&lt;StandardKernel,Int32,IVertex&gt; getAverageOfAllButWorstVertices, Func`5&lt;StandardKernel,Int32,IVertex,IVertex,IVertex&gt; getReflectedVertex)</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.GetAverageOfAllButWorstVerticesStandardKernelInt32">
+            <summary>Sets the stub of IDownHillSimplex.GetAverageOfAllButWorstVertices(StandardKernel kernel, Int32 firstWorstValueAsKey)</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.GetExpandedVertexStandardKernelIVertexIVertex">
+            <summary>Sets the stub of IDownHillSimplex.GetExpandedVertex(StandardKernel kernel, IVertex avgVertex, IVertex worstVertex)</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.GetReflectedVertexStandardKernelInt32IVertexIVertex">
+            <summary>Sets the stub of IDownHillSimplex.GetReflectedVertex(StandardKernel kernel, Int32 firstWorstValueAsKey, IVertex avgVertex, IVertex worstVertex)</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.InitialGuessGet">
+            <summary>Sets the stub of IDownHillSimplex.get_InitialGuess()</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.InitialGuessSetDoubleArray">
+            <summary>Sets the stub of IDownHillSimplex.set_InitialGuess(Double[] value)</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.InitialSimplexGet">
+            <summary>Sets the stub of IDownHillSimplex.get_InitialSimplex()</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.InitialSimplexSetISimplex">
+            <summary>Sets the stub of IDownHillSimplex.set_InitialSimplex(ISimplex value)</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.IsValid">
+            <summary>Sets the stub of IDownHillSimplex.IsValid()</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.ObjectiveFunctionGet">
+            <summary>Sets the stub of IDownHillSimplex.get_ObjectiveFunction()</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIDownHillSimplex.ObjectiveFunctionSetFuncOfIVertexDouble">
+            <summary>Sets the stub of IDownHillSimplex.set_ObjectiveFunction(Func`2&lt;IVertex,Double&gt; value)</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.dhs::Optimisation#IDownHillSimplex#AssignExpandedVertexToCurrentSimplex(System.Int32,Optimisation.ISimplex,System.Int32,Optimisation.IVertex)">
+            <summary>Sets the stub of IDownHillSimplex.AssignExpandedVertexToCurrentSimplex(Int32 numParams, ISimplex reflectedSimplex, Int32 firstWorstValueAsKey, IVertex expandedVertex)</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.dhs::Optimisation#IDownHillSimplex#AssignReflectedVertexToCurrentSimplex(System.Int32,Optimisation.ISimplex,System.Int32,Optimisation.IVertex)">
+            <summary>Sets the stub of IDownHillSimplex.AssignReflectedVertexToCurrentSimplex(Int32 numParams, ISimplex reflectedSimplex, Int32 firstWorstValueAsKey, IVertex reflectedVertex)</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.dhs::Optimisation#IDownHillSimplex#DoesReflectedSimplexPass(System.Func{Optimisation.IVertex,System.Double},System.Func{Ninject.StandardKernel,System.Int32,Optimisation.IVertex},System.Func{Ninject.StandardKernel,System.Int32,Optimisation.IVertex,Optimisation.IVertex,Optimisation.IVertex})">
+            <summary>Sets the stub of IDownHillSimplex.DoesReflectedSimplexPass(Func`2&lt;IVertex,Double&gt; objectiveMeasure, Func`3&lt;StandardKernel,Int32,IVertex&gt; getAverageOfAllButWorstVertices, Func`5&lt;StandardKernel,Int32,IVertex,IVertex,IVertex&gt; getReflectedVertex)</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.dhs::Optimisation#IDownHillSimplex#GetAverageOfAllButWorstVertices(Ninject.StandardKernel,System.Int32)">
+            <summary>Sets the stub of IDownHillSimplex.GetAverageOfAllButWorstVertices(StandardKernel kernel, Int32 firstWorstValueAsKey)</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.dhs::Optimisation#IDownHillSimplex#GetExpandedVertex(Ninject.StandardKernel,Optimisation.IVertex,Optimisation.IVertex)">
+            <summary>Sets the stub of IDownHillSimplex.GetExpandedVertex(StandardKernel kernel, IVertex avgVertex, IVertex worstVertex)</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.dhs::Optimisation#IDownHillSimplex#GetReflectedVertex(Ninject.StandardKernel,System.Int32,Optimisation.IVertex,Optimisation.IVertex)">
+            <summary>Sets the stub of IDownHillSimplex.GetReflectedVertex(StandardKernel kernel, Int32 firstWorstValueAsKey, IVertex avgVertex, IVertex worstVertex)</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIDownHillSimplex.dhs::Optimisation#IDownHillSimplex#IsValid">
+            <summary>Sets the stub of IDownHillSimplex.IsValid()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubIDownHillSimplex.dhs::Optimisation#IDownHillSimplex#CurrentSimplex">
+            <summary>Sets the stub of IDownHillSimplex.get_CurrentSimplex()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubIDownHillSimplex.dhs::Optimisation#IDownHillSimplex#InitialGuess">
+            <summary>Sets the stub of IDownHillSimplex.get_InitialGuess()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubIDownHillSimplex.dhs::Optimisation#IDownHillSimplex#InitialSimplex">
+            <summary>Sets the stub of IDownHillSimplex.get_InitialSimplex()</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubIDownHillSimplex.dhs::Optimisation#IDownHillSimplex#ObjectiveFunction">
+            <summary>Sets the stub of IDownHillSimplex.get_ObjectiveFunction()</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.StubISimplex">
+            <summary>Stub type of Optimisation.ISimplex</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubISimplex.#ctor">
+            <summary>Initializes a new instance of type StubISimplex</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubISimplex.AttachBackingFieldToVertices">
+            <summary>Attaches delegates to emulate StubISimplex.Vertices as a property with a backing field.</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubISimplex.CreateIVertex">
+            <summary>Sets the stub of ISimplex.Create(IVertex vertex)</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubISimplex.dhs::Optimisation#ISimplex#Create(Optimisation.IVertex)">
+            <summary>Sets the stub of ISimplex.Create(IVertex vertex)</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubISimplex.VerticesGet">
+            <summary>Sets the stub of ISimplex.get_Vertices()</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubISimplex.VerticesSetDictionaryOfInt32IVertex">
+            <summary>Sets the stub of ISimplex.set_Vertices(Dictionary`2&lt;Int32,IVertex&gt; value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubISimplex.dhs::Optimisation#ISimplex#Vertices">
+            <summary>Sets the stub of ISimplex.get_Vertices()</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.StubIVertex">
+            <summary>Stub type of Optimisation.IVertex</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIVertex.#ctor">
+            <summary>Initializes a new instance of type StubIVertex</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubIVertex.AttachBackingFieldToParameters">
+            <summary>Attaches delegates to emulate StubIVertex.Parameters as a property with a backing field.</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIVertex.ParametersGet">
+            <summary>Sets the stub of IVertex.get_Parameters()</summary>
+        </member>
+        <member name="F:Optimisation.Fakes.StubIVertex.ParametersSetDoubleArray">
+            <summary>Sets the stub of IVertex.set_Parameters(Double[] value)</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubIVertex.dhs::Optimisation#IVertex#Parameters">
+            <summary>Sets the stub of IVertex.get_Parameters()</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.StubSimplex">
+            <summary>Stub type of Optimisation.Simplex</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubSimplex.#ctor(Optimisation.IVertex)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubSimplex.InitializeStub">
+            <summary>Initializes a new instance of type StubSimplex</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubSimplex.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubSimplex.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubSimplex.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Optimisation.Fakes.StubVertex">
+            <summary>Stub type of Optimisation.Vertex</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubVertex.#ctor(System.Double[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Optimisation.Fakes.StubVertex.InitializeStub">
+            <summary>Initializes a new instance of type StubVertex</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubVertex.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubVertex.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Optimisation.Fakes.StubVertex.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

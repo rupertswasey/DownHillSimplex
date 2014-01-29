@@ -1,0 +1,6 @@
+C:\Depot\DownHillSimplex\DownHillSimplexTests\Fakes\DownHillSimplex.fakes : warning : Cannot generate stub for Optimisation.DownHillSimplexExtensions: type is sealed.
+C:\Depot\DownHillSimplex\DownHillSimplexTests\Fakes\DownHillSimplex.fakes : warning : Cannot generate stub for Optimisation.NinJectBindings: type is sealed.
+C:\Depot\DownHillSimplex\DownHillSimplexTests\Fakes\DownHillSimplex.fakes : warning : Cannot generate stub for Optimisation.ObjectiveMeasure: type is sealed.
+C:\Depot\DownHillSimplex\DownHillSimplexTests\Fakes\DownHillSimplex.fakes : warning : Cannot generate shim for Optimisation.IDownHillSimplex: type is an interface.
+C:\Depot\DownHillSimplex\DownHillSimplexTests\Fakes\DownHillSimplex.fakes : warning : Cannot generate shim for Optimisation.ISimplex: type is an interface.
+C:\Depot\DownHillSimplex\DownHillSimplexTests\Fakes\DownHillSimplex.fakes : warning : Cannot generate shim for Optimisation.IVertex: type is an interface.
